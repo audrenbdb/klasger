@@ -11,6 +11,7 @@
         </form>
         <p v-if="error" class="error">{{error}}</p>
         <p>Pas de compte ? <router-link to="/sign-up">Créer un compte</router-link></p>
+        <p class="home"><router-link to="/home">Accueil</router-link></p>
     </div>
 </template>
 <script>
@@ -79,5 +80,9 @@ export default {
     }
     .error {
         color: red;
+    }
+    .home a {
+        text-decoration: none;
+        color: inherit;
     }
 </style>

@@ -11,6 +11,7 @@
         </form>
         <p v-if="error" class="error">{{error}}</p>
         <p>Retourner à l'écran de <router-link to="/login">connexion</router-link></p>
+        <p class="home"><router-link to="/home">Accueil</router-link></p>
     </div>
 </template>
 
@@ -83,5 +84,10 @@ export default {
 
     .error {
         color: red;
+    }
+
+    .home a {
+        text-decoration: none;
+        color: inherit;
     }
 </style>

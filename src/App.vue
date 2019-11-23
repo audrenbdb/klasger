@@ -14,5 +14,12 @@
 }
 body {
   background-color: rgb(167, 207, 178);
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #fff;
+  }
 }
 </style>

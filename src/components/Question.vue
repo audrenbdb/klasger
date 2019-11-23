@@ -27,7 +27,7 @@
         </div>
       </form>
     </div>
-    <p>
+    <p class="nav">
       <router-link to="/insert">Ajouter</router-link>
       <router-link to="/list">Liste</router-link>
     </p>
@@ -81,16 +81,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 500px) {
-  .question {
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
 
 .context-quote {
   position: relative;

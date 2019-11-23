@@ -12,11 +12,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '*',
-    redirect: '/login'
+    redirect: '/home'
   },
   {
     path: '/',
-    redirect: '/login'
+    redirect: '/home'
   },
   {
     path: '/login',
@@ -42,7 +42,6 @@ const routes = [
     name: 'list',
     component: List,
     meta: {
-      requiresAuth: true,
       title: 'Consulter les verbes'
     }
   },
@@ -51,7 +50,6 @@ const routes = [
     name: 'home',
     component: Home,
     meta: {
-      requiresAuth: true,
       title: 'Klasger'
     }
   },
