@@ -235,4 +235,8 @@ p a {
   color: #2c3e50;
   margin: 0px 10px;
 }
+
+.insert-wrapper {
+  margin-top: 15px;
+}
 </style>
